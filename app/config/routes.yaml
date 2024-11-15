@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+create_order:
+  path: /create_order
+  controller: App\Controller\CreateOrder::list
+  methods: POST
